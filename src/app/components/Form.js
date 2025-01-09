@@ -1,4 +1,3 @@
-// components/SequenceForm.js
 import { useState } from 'react';
 
 const Form = ({ onSubmit }) => {

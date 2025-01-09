@@ -1,10 +1,8 @@
 "use client"
-// components/Captcha.js
 import { useEffect } from 'react';
 
 const CaptchaComponent = ({ onSuccess, onError }) => {
   useEffect(() => {
-    // Fonction pour charger le script du captcha
     const loadCaptchaScript = () => {
       return new Promise((resolve, reject) => {
         const script = document.createElement('script');
@@ -17,7 +15,6 @@ const CaptchaComponent = ({ onSuccess, onError }) => {
       });
     };
 
-    // Charger le script et initialiser le captcha
     loadCaptchaScript()
       .then(() => {
         const container = document.getElementById('my-captcha-container');

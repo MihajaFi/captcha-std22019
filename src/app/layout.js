@@ -21,7 +21,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en"> 
      <Head>
-     <script type="text/javascript" src="https://b82b1763d1c3.eu-west-3.captcha-sdk.awswaf.com/b82b1763d1c3/jsapi.js" defer></script>
      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
